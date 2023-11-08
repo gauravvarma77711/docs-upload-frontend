@@ -1,0 +1,189 @@
+/* DocumentUpload.css or your preferred stylesheet */
+
+.upload-container {
+    height: 40%;
+    width: 70%;
+    align-items: baseline;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border: 4px dotted green;
+    padding: 40px 3px;
+    border-radius: 20px;
+  }
+  
+  .upload-input {
+    display: none; /* Hide the file input */
+  }
+  
+  .upload-label {
+    background-color: #4daf7c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .upload-label:hover {
+    background-color: #398b68;
+  }
+  
+  .upload-button {
+    background-color: #4daf7c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+  
+  .upload-button:hover {
+    background-color: #398b68;
+  }
+  
+  .notification {
+    background-color: #4daf7c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 700;
+    margin-top: 10px;
+  }
+  
+  .notification.success {
+    background-color: #4caf50;
+  }
+  
+  .notification.error {
+    background-color: #f44336;
+  }
+
+.selected-file-container{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    max-height: 200px;
+    overflow: hidden;
+    overflow-x: hidden;
+    width: auto;
+    flex-wrap: wrap;
+    max-width: 80%;
+    justify-content: space-around;
+}  
+
+.selected-file-container > span{
+    margin: 5px;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.upload-btn{
+  border: none;
+  background: green;
+  color: white;
+  font-size: 24px;
+  font-weight: 600;
+  padding: 10px 10px;
+  border-radius: 5px;
+  margin-top: 15px;
+}
+
+.show-selected-files{
+    height: 50px;
+    width: 500px;
+    overflow: visible;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+
+.tobe-uploaded-files {
+  /* margin: 5px 1px; */
+  background: green;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+  display: flex;
+  position: relative;
+  align-items: center;
+  margin: 5px;
+}
+
+.upload-btn-container{
+  height: inherit;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top: 1px solid green;
+    margin: 15px;
+}
+
+.close-btn{
+  margin: 0px 0px 10px 0px;
+  background: none;
+  border: none;
+}
+
+.preview-popup{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: end;
+}
+
+.fa-close::before {
+  content: "\f00d";
+  color: green;
+  font-size: 18px;
+}
+
+.show-uploaded-docs{
+  color: white;
+  position: relative;
+  top: 50px;
+  background: green;
+  padding: 5px 5px;
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
+}
+
+.document-list{
+  top: 40px;
+  position: relative; 
+}
+
+.document-list > h3{
+  position: relative;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  color: green;
+}
+
+.action-btns{
+  background: green;
+  border: none;
+  padding: 10px 10px;
+  color: white;
+  border-radius: 5px;
+  margin: 0px 3px;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.table-header{
+
+  
+}
