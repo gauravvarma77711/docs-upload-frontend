@@ -8,6 +8,8 @@ In the project directory, you can run:
 
 ### `npm start`
 
+Run npm i inside the project directory to install all the relevant modules. Make sure after successful running of the command you have node_modules folder created in the same directory
+
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
